@@ -135,3 +135,7 @@ footer p {
   background: #ffffff;
   margin: 0 auto;
 }
+
+.culture-img.contain {
+  object-fit: contain;
+}
