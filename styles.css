@@ -160,19 +160,12 @@ footer p {
   object-fit: contain;
 }
 
-#research {
-  padding-top: 60px;
-}
-
-#undergraduate {
-  padding-top: 60px;
-}
-
-#publications {
-  padding-top: 60px;
-}
-
-#projects {
-  padding-top: 60px;
+#undergraduate,
+#research,
+#publications,
+#projects,
+#culture,
+#contact {
+  scroll-margin-top: 90px;
 }
 
