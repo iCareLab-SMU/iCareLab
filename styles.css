@@ -160,18 +160,19 @@ footer p {
   object-fit: contain;
 }
 
-#research .section-heading {
-  margin-bottom: 36px;
+#research {
+  padding-top: 60px;
 }
 
-#undergraduate .section-heading {
-  margin-bottom: 36px;
+#undergraduate {
+  padding-top: 60px;
 }
 
-#publications .section-heading {
-  margin-bottom: 36px;
+#publications {
+  padding-top: 60px;
 }
 
-#projects .section-heading {
-  margin-bottom: 36px;
+#projects {
+  padding-top: 60px;
 }
+
