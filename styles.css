@@ -169,3 +169,9 @@ footer p {
   scroll-margin-top: 90px;
 }
 
+.pub-meta .journal {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #2a3d66;
+}
+
