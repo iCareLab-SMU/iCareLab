@@ -121,7 +121,7 @@ footer p {
 }
 
 .culture-photo img {
-  width: 100%;
+  width: 20%;
   max-height: 680px;
   object-fit: contain;
   background: #ffffff;
