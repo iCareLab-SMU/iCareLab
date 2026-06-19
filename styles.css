@@ -84,6 +84,11 @@ footer p {
     font-size: 1em;
 }
 
+.section-culture {
+  background: linear-gradient(135deg, #eef6f8 0%, #f8fbfd 48%, #edf7f4 100%);
+  padding: 80px 0;
+}
+
 .culture-card {
   width: fit-content;
   display: grid;
@@ -97,14 +102,29 @@ footer p {
   box-shadow: var(--shadow);
 }
 
-.culture-photo {
+.culture-header {
+  margin-bottom: 26px;
+}
+
+.culture-header h2 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  color: var(--text);
+}
+
+.culture-header p:last-child {
   margin: 0;
-  overflow: hidden;
-  border-radius: 22px;
-  background: #ffffff;
-  border: 1px solid var(--line);
-  box-shadow: 0 16px 34px rgba(21, 35, 56, 0.12);
-  text-align: center;
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+/* 图片从左到右排列，不够自动换行 */
+.culture-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  align-items: start;
 }
 
 .culture-photo img {
