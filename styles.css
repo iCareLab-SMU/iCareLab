@@ -90,18 +90,14 @@ footer p {
 }
 
 .culture-card {
-  width: fit-content;
-  display: grid;
-  grid-template-columns: 1fr 0.75fr;
-  gap: 34px;
-  align-items: center;
   padding: 34px;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.86);
+  background: #ffffff;
   box-shadow: var(--shadow);
 }
 
+/* 标题单独成行 */
 .culture-header {
   margin-bottom: 26px;
 }
