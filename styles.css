@@ -160,6 +160,18 @@ footer p {
   object-fit: contain;
 }
 
+#research .section-heading {
+  margin-bottom: 36px;
+}
+
+#undergraduate .section-heading {
+  margin-bottom: 36px;
+}
+
 #publications .section-heading {
+  margin-bottom: 36px;
+}
+
+#projects .section-heading {
   margin-bottom: 36px;
 }
