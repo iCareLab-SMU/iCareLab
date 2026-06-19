@@ -85,15 +85,14 @@ footer p {
 }
 
 .culture-card {
-  display: grid;
-  grid-template-columns: 1fr 0.75fr;
-  gap: 34px;
-  align-items: center;
-  padding: 34px;
+  width: fit-content;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 12px;
   border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.86);
-  box-shadow: var(--shadow);
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 16px 34px rgba(21, 35, 56, 0.12);
 }
 
 .culture-photo {
@@ -108,8 +107,8 @@ footer p {
 
 .culture-photo img {
   width: 100%;
-  max-width: 230px;
-  max-height: 280px;
+  max-width: 345px;
+  max-height: 420px;
   object-fit: contain;
   background: #ffffff;
   margin: 0 auto;
