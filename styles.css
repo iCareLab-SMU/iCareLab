@@ -127,7 +127,7 @@ footer p {
   width: 100%;
   max-width: 345px;
   max-height: 420px;
- object-fit: cover;
+  object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 12px 28px rgba(21, 35, 56, 0.12);
   background: #ffffff;
