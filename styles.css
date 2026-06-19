@@ -159,3 +159,7 @@ footer p {
 .culture-img.contain {
   object-fit: contain;
 }
+
+#publications .section-heading {
+  margin-bottom: 36px;
+}
