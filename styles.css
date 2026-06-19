@@ -86,13 +86,15 @@ footer p {
 
 .culture-card {
   width: fit-content;
-  max-width: calc(100% - 40px);
-  margin: 0 auto;
-  padding: 12px;
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+  gap: 34px;
+  align-items: center;
+  padding: 34px;
   border: 1px solid var(--line);
-  border-radius: 22px;
-  background: #ffffff;
-  box-shadow: 0 16px 34px rgba(21, 35, 56, 0.12);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: var(--shadow);
 }
 
 .culture-photo {
