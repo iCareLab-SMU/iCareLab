@@ -108,8 +108,8 @@ footer p {
 
 .culture-photo img {
   width: 100%;
-  max-width: 230px;
-  max-height: 280px;
+  max-width: 460px;
+  max-height: 560px;
   object-fit: contain;
   background: #ffffff;
   margin: 0 auto;
